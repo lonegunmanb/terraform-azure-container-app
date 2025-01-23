@@ -19,12 +19,6 @@ A Terraform module to deploy a container app in Azure with the following charact
   - `secrets` - (Optional) The secrets for the container.
   - `image_pull_secrets` - (Optional) The image pull secrets for the container.
   - `security_context` - (Optional) The security context for the container.
-  - `resources` - (Optional) The resource requirements for the container.
-  - `ports` - (Optional) The ports exposed by the container.
-  - `environment_variables` - (Optional) The environment variables for the container.
-  - `command` - (Optional) The command to run within the container in exec form.
-  - `args` - (Optional) The arguments to the command in `command` field.
-  - `liveness_probe` - (Optional) The liveness probe for the container.
 
 
 ## Usage in Terraform 1.2.0
